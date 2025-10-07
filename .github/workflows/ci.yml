@@ -27,7 +27,7 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           browser: chrome
-          command: npm test   # runs "cypress run"
+          command: npx cypress run   # runs "cypress run"
         env:
           CYPRESS_VIDEO: "false"   # optional: skip video in CI
 
